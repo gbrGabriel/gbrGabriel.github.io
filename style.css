@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -211,7 +212,7 @@ button{
         margin-right: 2rem;
     }
     .nav_top_rigth a{
-        font-family: arial, sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         color: #fff;
         padding: 1rem;
         font-size: 1.2rem;
@@ -233,13 +234,13 @@ button{
     }
     .text-principal h1{
         color: #fff;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         text-align: center;
         font-size: 2.5rem;
     }
     .text-principal p{
         color: #fff;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         font-size: 1.3rem;
         
     }
@@ -247,7 +248,7 @@ button{
         height: 2.3rem;
         float: left;
         width: 7rem;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         font-size: 1rem;
         border-radius: 0.3rem;
         cursor: pointer;
@@ -265,12 +266,12 @@ button{
     }
     .sobre h1{
         color: #fff;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         font-size: 3rem;
     }
     .sobre p{
         color: #fff;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         margin-top: 1rem;
         text-align: center;
         margin-left: 1rem;
@@ -290,12 +291,12 @@ button{
     }
     .servicos h1{
         color: #fff;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         font-size: 3rem;
     }
     .servicos p{
         color: #fff;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         margin-top: 1rem;
         text-align: center;
         margin: 1rem;
@@ -315,12 +316,12 @@ button{
 }
     .contato h1{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 3rem;
 }
 .contato p{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     margin-top: 1rem;
     text-align: center;
     margin: 1rem;
@@ -328,3 +329,5 @@ button{
     float: left;
 }
 }
+
+/*teste*/
