@@ -12,13 +12,16 @@ body{
 }
 @media only screen and (max-width:600px)/*Mobile*/{
 .nav_top_rigth{
-    margin-right:0.7rem;
-    margin-top: 1rem;
     text-align: center;
     position: fixed;
+    width: 100%;
+    background-color: #000;
+}
+.nav_top_rigth ul{
+    margin-top: 1rem;
 }
 .nav_top_rigth a{
-    font-family: arial, sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     color: #fff;
     padding: 0.3rem;
 }
@@ -33,13 +36,13 @@ body{
 }
 .text-principal h1{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     text-align: center;
     font-size: 1.3rem;
 }
 .text-principal p{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 0.8rem;
     margin-top: 0.1rem;
     text-align: center;
@@ -54,14 +57,14 @@ button{
 }
 .sobre h1{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     margin-top: 37rem;
     font-size: 2rem;
     
 }
 .sobre p{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     margin-top: 1rem;
     margin: 1.2rem;
     text-align: center;
@@ -80,14 +83,14 @@ button{
 }
 .servicos h1{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     margin-top: 7rem;
     text-align: center;
     font-size: 2rem;
 }
 .servicos p{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family:'Ubuntu Mono', monospace;
     text-align: center;
     margin: 1.2rem;
     font-size: 1.1rem;
@@ -109,7 +112,7 @@ button{
         margin-top: 1.8rem;
     }
     .nav_top_rigth a{
-        font-family: arial, sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         color: #fff;
         padding:1rem;
         font-size: 1.2rem;
@@ -130,20 +133,20 @@ button{
     }
     .text-principal h1{
         color: #fff;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         text-align: center;
         font-size: 1.3rem;
     }
     .text-principal p{
         color: #fff;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         font-size: 1rem;
         margin-top: 0.1rem;
     }
     .btn{
         height: 2.3rem;
         width: 7rem;
-        font-family: arial,sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
         font-size: 1rem;
         border-radius: 0.3rem;
         cursor: pointer;
@@ -161,12 +164,12 @@ button{
 }
 .sobre h1{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 2rem;
 }
 .sobre p{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     margin-top: 1rem;
     text-align: center;
     margin: 1.2rem;
@@ -184,14 +187,14 @@ button{
 }
 .servicos h1{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family:'Ubuntu Mono', monospace;
     margin-top: 7rem;
     text-align: center;
     font-size: 2rem;
 }
 .servicos p{
     color: #fff;
-    font-family: arial,sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     text-align: center;
     margin: 1rem;
     font-size: 1.3rem;
@@ -208,9 +211,14 @@ button{
 }
 @media only screen and (min-width:1025px)/*Desktop*/{
     .nav_top_rigth{
-        float: right;
-        margin-top: 1.8rem;
-        margin-right: 2rem;
+        text-align: right;
+        position: fixed;
+        width: 100%;
+        height: 4rem;
+        background-color: #000;
+    }
+    .nav_top_rigth ul{
+        margin-top: 1rem;
     }
     .nav_top_rigth a{
         font-family: 'Ubuntu Mono', monospace;
@@ -308,10 +316,11 @@ button{
         width: 50rem;
         height: 20rem;
         border-radius:7rem;
-        margin-top: 1rem;      
+        margin-top: 1rem;   
+        position: fixed;   
 }
     .contato{
-    float: right;
+    float:left;
     text-align: center;
     margin-top: 25rem;
 }
@@ -330,5 +339,3 @@ button{
     float: left;
 }
 }
-
-/*teste*/
