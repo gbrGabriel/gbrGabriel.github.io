@@ -220,7 +220,6 @@ body{
         flex-direction: row;
         justify-content: flex-end;
         width: 100%;
-        
         position: fixed;
         background-color: rgb(110, 104, 104);
     }
